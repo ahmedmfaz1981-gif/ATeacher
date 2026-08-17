@@ -1,4 +1,11 @@
-body{
+* {
+    box-sizing: border-box;
+}
+body,html{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
     background-image: url(img2.jpg);
 }
 #logo{
@@ -18,22 +25,29 @@ body{
 }
 #mainlan{
     display: block;
-    width: 400px;
+    width: 90%;
+    max-width: 400px;
     height: auto;
     background-color: gray;
     border: solid 5px black;
     border-radius: 20px;
-    justify-content: center;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 10px 10px 7px black;
+    box-sizing: border-box;
 }
-#py{
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
+#py,
+#js,
+#sql,
+#java,
+#c,
+#cpp,
+#cs,
+#css,
+#html {
+    margin: 30px auto 0;
+    width: 90%;
+    max-width: 350px;
     height: 70px;
     background-color: darkblue;
     border-radius: 25px;
@@ -42,226 +56,21 @@ body{
     font-weight: bold;
     color: bisque;
     display: block;
+    box-sizing: border-box;
 }
-#py:hover{
-    width: 370px;
+#py:hover,
+#js:hover,
+#sql:hover,
+#java:hover,
+#c:hover,
+#cpp:hover,
+#cs:hover,
+#css:hover,
+#html:hover {
     height: 100px;
     font-size: xx-large;
     margin-top: 50px;
     cursor: pointer;
-}
-#py:active{
-    background-color: transparent;
-}
-#py::selection{
-    background-color: transparent;
-}
-#js{
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
-    height: 70px;
-    background-color: darkblue;
-    border-radius: 25px;
-    font-family: monospace;
-    font-size: x-large;
-    font-weight: bold;
-    color: bisque;
-    display: block;
-}
-#js:hover{
-    width: 370px;
-    height: 100px;
-    font-size: xx-large;
-    margin-top: 50px;
-    cursor: pointer;
-}
-#js:active{
-    background-color: transparent;
-}
-#js::selection{
-    background-color: transparent;
-}
-#sql{
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
-    height: 70px;
-    background-color: darkblue;
-    border-radius: 25px;
-    font-family: monospace;
-    font-size: x-large;
-    font-weight: bold;
-    color: bisque;
-    display: block;
-}
-#sql:hover{
-    width: 370px;
-    height: 100px;
-    font-size: xx-large;
-    margin-top: 50px;
-    cursor: pointer;
-}
-#sql:active{
-    background-color: transparent;
-}
-#sql::selection{
-    background-color: transparent;
-}
-#java{
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
-    height: 70px;
-    background-color: darkblue;
-    border-radius: 25px;
-    font-family: monospace;
-    font-size: x-large;
-    font-weight: bold;
-    color: bisque;
-    display: block;
-}
-#java:hover{
-    width: 370px;
-    height: 100px;
-    font-size: xx-large;
-    margin-top: 50px;
-    cursor: pointer;
-}
-#java:active{
-    background-color: transparent;
-}
-#java::selection{
-    background-color: transparent;
-}
-#c{
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
-    height: 70px;
-    background-color: darkblue;
-    border-radius: 25px;
-    font-family: monospace;
-    font-size: x-large;
-    font-weight: bold;
-    color: bisque;
-    display: block;
-}
-#c:hover{
-    width: 370px;
-    height: 100px;
-    font-size: xx-large;
-    margin-top: 50px;
-    cursor: pointer;
-}
-#c:active{
-    background-color: transparent;
-}#c::selection{
-    background-color: transparent;
-}
-#cpp{
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
-    height: 70px;
-    background-color: darkblue;
-    border-radius: 25px;
-    font-family: monospace;
-    font-size: x-large;
-    font-weight: bold;
-    color: bisque;
-    display: block;
-}
-#cpp:hover{
-    width: 370px;
-    height: 100px;
-    font-size: xx-large;
-    margin-top: 50px;
-    cursor: pointer;
-}
-#cpp:active{
-    background-color: transparent;
-}
-#cpp::selection{
-    background-color: transparent;
-}
-#cs{
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
-    height: 70px;
-    background-color: darkblue;
-    border-radius: 25px;
-    font-family: monospace;
-    font-size: x-large;
-    font-weight: bold;
-    color: bisque;
-    display: block;
-}
-#cs:hover{
-    width: 370px;
-    height: 100px;
-    font-size: xx-large;
-    margin-top: 50px;
-    cursor: pointer;
-}
-#cs:active{
-    background-color: transparent;
-}
-#cs::selection{
-    background-color: transparent;
-}
-#css{
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
-    height: 70px;
-    background-color: darkblue;
-    border-radius: 25px;
-    font-family: monospace;
-    font-size: x-large;
-    font-weight: bold;
-    color: bisque;
-    display: block;
-}
-#css:hover{
-    width: 370px;
-    height: 100px;
-    font-size: xx-large;
-    margin-top: 50px;
-    cursor: pointer;
-}
-#css:active{
-    background-color: transparent;
-}
-#css::selection{
-    background-color: transparent;
-}
-#html{
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
-    height: 70px;
-    background-color: darkblue;
-    border-radius: 25px;
-    font-family: monospace;
-    font-size: x-large;
-    font-weight: bold;
-    color: bisque;
-    display: block;
-}
-#html:hover{
-    width: 370px;
-    height: 100px;
-    font-size: xx-large;
-    margin-top: 50px;
-    cursor: pointer;
-}
-#html:active{
-    background-color: transparent;
-}
-#html::selection{
-    background-color: transparent;
 }
 .langs{
     display: flex;
