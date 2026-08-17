@@ -1,0 +1,294 @@
+body{
+    background-image: url(img2.jpg);
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    font-style: italic;
+    text-shadow: 20px 30px 7px rgb(38, 37, 37);
+    cursor: pointer;
+}
+#logo::selection{
+    background-color: transparent;
+}
+#mainlan{
+    display: block;
+    width: 400px;
+    height: auto;
+    background-color: gray;
+    border: solid 5px black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 7px black;
+}
+#py{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 70px;
+    background-color: darkblue;
+    border-radius: 25px;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bold;
+    color: bisque;
+    display: block;
+}
+#py:hover{
+    width: 370px;
+    height: 100px;
+    font-size: xx-large;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#py:active{
+    background-color: transparent;
+}
+#py::selection{
+    background-color: transparent;
+}
+#js{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 70px;
+    background-color: darkblue;
+    border-radius: 25px;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bold;
+    color: bisque;
+    display: block;
+}
+#js:hover{
+    width: 370px;
+    height: 100px;
+    font-size: xx-large;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#js:active{
+    background-color: transparent;
+}
+#js::selection{
+    background-color: transparent;
+}
+#sql{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 70px;
+    background-color: darkblue;
+    border-radius: 25px;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bold;
+    color: bisque;
+    display: block;
+}
+#sql:hover{
+    width: 370px;
+    height: 100px;
+    font-size: xx-large;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#sql:active{
+    background-color: transparent;
+}
+#sql::selection{
+    background-color: transparent;
+}
+#java{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 70px;
+    background-color: darkblue;
+    border-radius: 25px;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bold;
+    color: bisque;
+    display: block;
+}
+#java:hover{
+    width: 370px;
+    height: 100px;
+    font-size: xx-large;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#java:active{
+    background-color: transparent;
+}
+#java::selection{
+    background-color: transparent;
+}
+#c{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 70px;
+    background-color: darkblue;
+    border-radius: 25px;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bold;
+    color: bisque;
+    display: block;
+}
+#c:hover{
+    width: 370px;
+    height: 100px;
+    font-size: xx-large;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#c:active{
+    background-color: transparent;
+}#c::selection{
+    background-color: transparent;
+}
+#cpp{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 70px;
+    background-color: darkblue;
+    border-radius: 25px;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bold;
+    color: bisque;
+    display: block;
+}
+#cpp:hover{
+    width: 370px;
+    height: 100px;
+    font-size: xx-large;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#cpp:active{
+    background-color: transparent;
+}
+#cpp::selection{
+    background-color: transparent;
+}
+#cs{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 70px;
+    background-color: darkblue;
+    border-radius: 25px;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bold;
+    color: bisque;
+    display: block;
+}
+#cs:hover{
+    width: 370px;
+    height: 100px;
+    font-size: xx-large;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#cs:active{
+    background-color: transparent;
+}
+#cs::selection{
+    background-color: transparent;
+}
+#css{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 70px;
+    background-color: darkblue;
+    border-radius: 25px;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bold;
+    color: bisque;
+    display: block;
+}
+#css:hover{
+    width: 370px;
+    height: 100px;
+    font-size: xx-large;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#css:active{
+    background-color: transparent;
+}
+#css::selection{
+    background-color: transparent;
+}
+#html{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 70px;
+    background-color: darkblue;
+    border-radius: 25px;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: bold;
+    color: bisque;
+    display: block;
+}
+#html:hover{
+    width: 370px;
+    height: 100px;
+    font-size: xx-large;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#html:active{
+    background-color: transparent;
+}
+#html::selection{
+    background-color: transparent;
+}
+.langs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+
+}
+#navbar{
+    width: 100px;
+    height: 100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    text-indent: 20px;
+    font-weight: bold;
+    font-size: larger;
+    color: blanchedalmond;
+    text-shadow: 5px 5px 4px black;
+    cursor: pointer;
+}
+ul::selection{
+    background-color: transparent;
+}
