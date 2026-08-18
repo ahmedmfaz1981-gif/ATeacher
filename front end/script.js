@@ -93,7 +93,7 @@ ul::selection{
 }
 
 home.onclick = function hm(){
-    history.back();
+    location.href="index.html";
 }
 
 ath.onclick = function athr(){
