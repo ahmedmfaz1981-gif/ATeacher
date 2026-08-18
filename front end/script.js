@@ -15,7 +15,7 @@ let main = document.getElementById("mainlan");
 
 
 logo.onclick = function relod(){
-    location.reload();
+    location.href = "index.html";
 }
 
 abt.onclick = function about(){
@@ -99,6 +99,7 @@ home.onclick = function hm(){
 ath.onclick = function athr(){
     document.write(`
         <body>
+        <title>Author | ATeacher</title>
     <h1 id="logo" onclick="location.reload();">ATeacher</h1>
     
         <div id="navbar">
@@ -107,7 +108,7 @@ ath.onclick = function athr(){
     </ul>
 </div>
 
-    <h1 id="name">Aouther is Ahmed Mohamed Farook El-zemity</h1>
+    <h1 id="name">Author is Ahmed Mohamed Farook El-zemity</h1>
     <p>14 years old</p>
     <br>
     <p>south sainai - egypt</p>
@@ -199,6 +200,7 @@ python.onclick = function pyt() {
         <p>Python use in all banches of AI</p>
         <p>It's a manger for all AI in the worled</p>
         <p>python can make websit , mobile app ,descktop app and practing AI</p>
+        <p>Simple code template (print("hello, worled"))</p>
     </div>
 
     <style>
@@ -295,6 +297,7 @@ js.onclick = function jsc() {
         <p>javascript use in all website aroundly</p>
         <p>There's not a websit not uses java script</p>
         <p>python can make websit ,descktop app and practing AI litle</p>
+        <p>Simple code template (console.log("hello, worled");)</p>
     </div>
 
     <style>
@@ -397,6 +400,7 @@ sql.onclick = function squl() {
         <p>SQL use in all databasese and data sciense learning and servers</p>
         <p>There's not a websit or applcation not uses SQL in back end</p>
         <p>SQL can make websit backend , data basses</p>
+        <p>Simple code template (CREATE TABLE users)</p>
     </div>
 
     <style>
@@ -499,6 +503,7 @@ java.onclick = function jav() {
         <p>JAVA use in all mobile app </p>
         <p>There's not a app not uses JAVA</p>
         <p>JAVA can make descktop app and mobile app (with Android Studio)</p>
+        <p>Simple code template (system.out.println("hello, worled");)</p>
     </div>
 
     <style>
@@ -600,6 +605,7 @@ c.onclick = function cl() {
         <p>C use in all hardware system whith life way</p>
         <p>There's not hardware like CPU not uses C</p>
         <p>C can make virus and hardware system (so fast lanuage)</p>
+        <p>Simple code template (printf("hello, worled");)</p>
     </div>
 
     <style>
@@ -703,6 +709,7 @@ cpp.onclick = function cp() {
         <p>C++ use in all games realy (With unreal) and  programing Arduino</p>
         <p>There's not a game or arduino board not uses C++</p>
         <p>C++ can make Games and mobile app and Arduino programing</p>
+        <p>Simple code template (std::cout << "Hello, World!" << std::endl;)</p>
     </div>
 
     <style>
